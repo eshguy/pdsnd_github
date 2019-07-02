@@ -2,7 +2,7 @@
 July 2nd 2019 
 
 ### Project Title
-Project 3: using Git and GitHub. This is document branch first commit.
+Project 3: using Git and GitHub. This is document branch Second commit.
 
 ### Description
 Using Github in a real way
