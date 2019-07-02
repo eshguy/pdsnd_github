@@ -1,0 +1,28 @@
+[33mcommit 7b68e9756e57dcb084c6292ddcfe616153629cc9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 7013f91 46a5819
+Author: eshguy <eshwar.udho@gmail.com>
+Date:   Tue Jul 2 15:54:39 2019 -0500
+
+    Merge branch 'master' of https://github.com/eshguy/pdsnd_github
+
+[33mcommit 7013f91b6644e713ef0f920590b914f24823fb43[m
+Author: eshguy <eshwar.udho@gmail.com>
+Date:   Tue Jul 2 15:12:56 2019 -0500
+
+    First Upload from my Local Machine
+
+ create mode 100644 Explore_bikeshare_data-Copy1.html
+ create mode 100644 Explore_bikeshare_data.ipynb
+ create mode 100644 Ignores.gitignore
+ create mode 100644 chicago.csv
+ create mode 100644 new_york_city.csv
+ create mode 160000 pdsnd_github
+ create mode 100644 washington.csv
+
+[33mcommit 46a5819dc927e9405b589b41529d76b86d41ec36[m
+Author: Ruchi B <41761551+rbUdacProjects@users.noreply.github.com>
+Date:   Tue Aug 14 15:26:00 2018 -0700
+
+    Create README.md
+
+ create mode 100644 README.md
