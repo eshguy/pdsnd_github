@@ -56,7 +56,6 @@ monthStats <- allCities %>% group_by(TripMonth) %>% summarise(ave = mean(Trip.Du
                                                             std = sd(Trip.Duration, na.rm = T))
 ggplot(data = allCities) +
   geom_histogram(aes(x = Trip.Duration), binwidth = 250) +
-  # geom_density(aes(x = Trip.Duration)) +
   coord_cartesian(xlim = c(0,10000)) +
   facet_wrap(facets = ~City) +
   geom_vline(data = cityStats, aes(xintercept = ave), color = "red") +
@@ -72,7 +71,6 @@ ggplot(data = allCities) +
 
 ggplot(data = allCities) +
   geom_histogram(aes(x = Trip.Duration), binwidth = 250) +
-  # geom_density(aes(x = Trip.Duration)) +
   coord_cartesian(xlim = c(0,10000)) +
   facet_wrap(facets = ~Gender) +
   geom_vline(data = genderStats, aes(xintercept = ave), color = "red") +
@@ -88,7 +86,6 @@ ggplot(data = allCities) +
 
 ggplot(data = allCities) +
   geom_histogram(aes(x = Trip.Duration), binwidth = 250) +
-  # geom_density(aes(x = Trip.Duration)) +
   coord_cartesian(xlim = c(0,10000)) +
   facet_wrap(facets = ~TripMonth) +
   geom_vline(data = monthStats, aes(xintercept = ave), color = "red") +
